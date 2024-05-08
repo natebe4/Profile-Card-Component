@@ -1,0 +1,141 @@
+html {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    max-width: 300px;
+    min-width: 300px;
+    height: 50%;
+    max-height: 320px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.background img {
+    width: 300px;
+    min-width: 300px;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.profile-pic img {
+    height: 80px;
+    width: 80px;
+    max-width: fit-content;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.name-age {
+    display: flex;
+    justify-content: center;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+}
+
+.name {
+    padding-right: 10px;
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+}
+
+.location-main {
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    margin-top: -8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(0, 0%, 59%);
+}
+
+.social-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.followers-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50px;
+}
+
+.followers {
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+}
+
+.likes {
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+}
+
+.photos {
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+}
+
+.like-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50px;
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50px;
+}
+
+#followers {
+    margin-top: -13px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+}
+
+#likes {
+    margin-top: -13px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+}
+
+#photos {
+    margin-top: -13px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    border-color: hsla(0, 0%, 83%, 0.242);
+    ;
+}
